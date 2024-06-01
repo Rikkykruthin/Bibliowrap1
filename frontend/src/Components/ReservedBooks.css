@@ -1,0 +1,75 @@
+.reservedbooks-container {
+    background-color: #F5F7FA;
+    /* Light grey background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the content */
+}
+
+.reservedbooks-title {
+    color: #34495E;
+    /* Dark blue-grey color */
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.reservedbooks-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #1ABC9C;
+    /* Turquoise underline */
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.reservedbooks-table {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #FFFFFF;
+    /* White background for the table */
+}
+
+.reservedbooks-table th {
+    border: 2px solid #D5D8DC;
+    /* Light grey border */
+    text-align: left;
+    padding: 12px;
+    background: linear-gradient(90deg, #E8F6F3, #D1F2EB);
+    /* Soft green gradient background */
+    color: #2C3E50;
+    /* Dark blue-grey text */
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.reservedbooks-table td {
+    border: 2px solid #D5D8DC;
+    /* Light grey border */
+    text-align: left;
+    padding: 12px;
+    background-color: #FBFCFC;
+    /* Very light grey background for cells */
+    font-size: 14px;
+    transition: background-color 0.3s;
+    /* Smooth transition on hover */
+}
+
+.reservedbooks-table td:hover {
+    background-color: #D1F2EB;
+    /* Soft green background on hover */
+}

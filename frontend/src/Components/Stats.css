@@ -1,0 +1,61 @@
+.stats {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F4F6;
+    /* Light grey background */
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    /* Adding gap between the blocks for better spacing */
+}
+
+.stats-icon {
+    align-items: center;
+}
+
+.stats-block {
+    height: 200px;
+    /* Slightly taller for more presence */
+    width: 160px;
+    /* Slightly wider for better proportion */
+    border-radius: 15px;
+    /* More rounded corners for elegance */
+    margin: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Softer shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    /* White background */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Smooth transition for hover effect */
+    text-align: center;
+}
+
+.stats-block:hover {
+    transform: translateY(-5px);
+    /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow on hover */
+}
+
+.stats-block h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333333;
+    /* Dark grey text for better readability */
+    font-family: 'Arial', sans-serif;
+}
+
+.stats-block p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #777777;
+    /* Light grey text for a softer look */
+    font-family: 'Arial', sans-serif;
+}
